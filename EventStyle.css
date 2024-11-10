@@ -1,3 +1,9 @@
+:root {
+    /* FONT */
+    --font-pr: "Instrument Sans", sans-serif;
+    --font-sc: "Instrument Serif", serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
