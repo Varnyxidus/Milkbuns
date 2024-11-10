@@ -1,0 +1,158 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&family=Instrument+Serif:ital@0;1&family=Kurale&family=Limelight&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Instrument Serif", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9D4AF;
+}
+
+/* nav {
+    background-image: url("img/navbar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0;
+    top: 0;
+    left: 0;
+} */
+
+.theCollection-img img {
+    width: 100%;
+}
+
+.theCollection-img {
+    position: relative;
+}
+
+.collection-txt {
+    position: absolute;
+    top: 0;
+    left: 22%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: transparent;
+    margin-top: 160px;
+}
+
+.collection-sec .collection-txt h2 {
+    font-family: Limelight;
+    font-size: 73px;
+    font-weight: bold;
+    background-image: url('img/collec.png');
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.collection-sec .collection-txt p {
+    background-color: transparent;
+    font-family: kurale;
+    color: #EED2B0;
+    font-size: 28px;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.TypeCollection {
+    width: 80%;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.type {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.type h1 {
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-family: Instrument Serif;
+    color: #584A32;
+}
+
+.type h2 {
+    margin-top: 5px;
+    font-size: 70px;
+    font-family: Gidugu;
+    color: #584A32;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+    margin: 0 auto;
+    margin-left: -20px;
+}
+
+.pict-batik {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.row ::after {
+    content: "";
+    display: table;
+}
+
+.pict-batik h2 {
+    font-size: 55px;
+    text-align: left;
+    position: absolute;
+    background: transparent;
+    font-weight: 300;
+    top: 1260px;
+    text-align: center;
+    margin-left: 40px;
+    color: beige;
+    font-family: Gidugu;
+
+}
+
+/* header&footer */
+
+header {
+    background-color: #442b15;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+
+header span {
+    font-size: 45px;
+}
+
+nav a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #111;
+}
+
+footer {
+    background-color: #442b15;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contact {
+    margin-left: 20px;
+    inline-size: none;
+}
