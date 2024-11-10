@@ -20,7 +20,7 @@ header {
     font-family: var(--font-sc);
 }
 
-header logo{
+.logo{
     font-family: var(--font-sc);
     font-weight: 500;
     font-size: 6vh;
