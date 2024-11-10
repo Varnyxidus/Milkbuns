@@ -19,8 +19,6 @@ header {
     text-align: left;
     font-family: var(--font-sc);
     font-weight: 500;
-    font-size: 6vh;
-    color: var(--bone);
     text-decoration: none;
 }
 
