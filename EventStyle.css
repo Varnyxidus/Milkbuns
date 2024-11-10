@@ -20,6 +20,10 @@ header {
     font-family: var(--font-sc);
 }
 
+header span {
+    font-size: 45px;
+}
+
 .logo{
     font-family: var(--font-sc);
     font-weight: 500;
