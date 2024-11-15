@@ -32,7 +32,7 @@ nav {
 }
 
 #navbar-nav.scrolled {
-    background-color: var(--eerie-black-t);
+    background-color: #442b15;
     backdrop-filter: blur(2px);
 }
 
