@@ -1,14 +1,13 @@
-:root {
-    /* FONT */
-    --font-pr: "Instrument Sans", sans-serif;
-    --font-sc: "Instrument Serif", serif;
-}
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&family=Instrument+Serif:ital@0;1&family=Kurale&family=Limelight&display=swap');
+
 
 body {
-    font-family: var(--font-pr);
     margin: 0;
     padding: 0;
-    background-color: #e9d6b5;
+    font-family: "Instrument Serif", serif;
+    box-sizing: border-box;
+    background-color: #E9D4AF;
 }
 
 header {
@@ -148,6 +147,7 @@ nav {
 }
 
 .nav-logo {
+    margin-top: 30px;
     font-family: var(--font-sc);
     font-weight: 500;
     font-size: 6vh;
@@ -163,7 +163,7 @@ nav {
 
 .navigation .nav-items {
     display: flex;
-    gap: 15px;
+    gap: 35px;
     align-items: center;
     justify-content: center;
     padding: 0;
