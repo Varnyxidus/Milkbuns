@@ -1,5 +1,11 @@
+:root {
+    /* FONT */
+    --font-pr: "Instrument Sans", sans-serif;
+    --font-sc: "Instrument Serif", serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-pr);
     margin: 0;
     padding: 0;
     background-color: #e9d6b5;
@@ -11,10 +17,19 @@ header {
     padding: 20px;
     overflow: hidden;
     text-align: left;
+    font-family: var(--font-sc);
 }
 
 header span {
     font-size: 45px;
+}
+
+.logo{
+    font-family: var(--font-sc);
+    font-weight: 500;
+    font-size: 6vh;
+    color: var(--bone);
+    text-decoration: none;
 }
 
 nav a {
