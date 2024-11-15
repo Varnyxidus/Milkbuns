@@ -305,3 +305,14 @@ img {
     border-bottom: 1px solid #fff;
     padding-bottom: 2px;
 } */
+
+footer {
+    background-color: #442b15;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contact{
+    margin-left: 20px;
+    inline-size: none;
+}
